@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Tests/iOSLibBindingsTest/iOSLibBindingsTest.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.Kashif's iPhone 6" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOSLibBindings/Properties/AssemblyInfo.cs">
+    <Files>
+      <File FileName="iOSLibBindings/ORStackView/ApiDefinitions.cs" Line="288" Column="3" />
+      <File FileName="../../../../Downloads/employee-inspection-service-master/CommonAssemblyInfo.cs" Line="9" Column="32" />
+      <File FileName="../../../../Downloads/employee-inspection-service-master/Src/Asgl.Messages.Employees.Inspections.Attachments/Properties/AssemblyInfo.cs" Line="5" Column="1" />
+      <File FileName="iOSLibBindings/Properties/AssemblyInfo.cs" Line="18" Column="43" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,2 @@
+# The following was used to pack the project into a nuget
+#C:\Users\kshaikh\Dropbox\Source\Xamarin\ios-lib-bindings\iOSLibBindings>..\utils\nuget.exe pack iOSLibBindings.csproj  -Prop Configuration=Release -Prop Platform=AnyCPU -Verbosity detailed

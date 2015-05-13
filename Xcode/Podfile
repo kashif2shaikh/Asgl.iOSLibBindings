@@ -1,0 +1,14 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '7.0'
+
+target 'iOSLibs' do
+	pod 'FLKAutoLayout'
+	pod 'ORStackView', '~> 3.0'
+    #pod 'DejalActivityView'
+    pod 'PureLayout'
+end
+
+target 'iOSLibsTests' do
+
+end
+
