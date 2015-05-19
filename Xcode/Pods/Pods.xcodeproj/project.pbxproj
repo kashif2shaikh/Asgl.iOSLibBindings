@@ -7,440 +7,423 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		091558388DC5D2DA31A8B12B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259629054441B531C8AE4463 /* Foundation.framework */; };
-		0F35D2403D65037C686CA7F0 /* ORSplitStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CEF3B0DBE5510CD9031EED9 /* ORSplitStackView.h */; };
-		1CD1A1E5AC8462CA09398FA9 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E15CB5788BE90E03ED5A45C4 /* NSLayoutConstraint+PureLayout.m */; };
-		1D9CB3D6996C9EFC83FC12E2 /* ORStackScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEF3CF51D38E0012627F9BD /* ORStackScrollView.m */; };
-		26844756C274BE39CB53A86D /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 151DAF6B3C452DE60EDCF927 /* ALView+PureLayout.m */; };
-		30CEFC754558B19B149E52E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259629054441B531C8AE4463 /* Foundation.framework */; };
-		310D3BDE201C181F635C9310 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F3AFEB0982964C687E004A06 /* NSLayoutConstraint+PureLayout.h */; };
-		31F1D22FD34F8F9627D25676 /* Pods-iOSLibs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D794E3742704CF803E0C4364 /* Pods-iOSLibs-dummy.m */; };
-		339DFCB8F83E50F49806395B /* FLKAutoLayoutPredicateList.h in Headers */ = {isa = PBXBuildFile; fileRef = C70F6BFF57B88D7A35847D66 /* FLKAutoLayoutPredicateList.h */; };
-		352FB066C4D4F1784FCC3CA3 /* UIView+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = DB363B478DDD1DE642A7588E /* UIView+FLKAutoLayoutDebug.m */; };
-		4210AFD3D3C9A9B8E3F20C0B /* FLKAutoLayoutPredicateList.m in Sources */ = {isa = PBXBuildFile; fileRef = DC120C32955891DC5A147493 /* FLKAutoLayoutPredicateList.m */; };
-		4596934B7A2384DE848F604C /* ORStackScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38501D59F562A9EDA7755B67 /* ORStackScrollView.h */; };
-		46F032EE0E78099D0EB8F24E /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ED8FA595334BAFCD6578139 /* PureLayout.h */; };
-		569E89114734FF410E513563 /* ORStackView+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B874A99D4CA17221EE18010F /* ORStackView+Private.h */; };
-		69BC251FDBDBEEDBF7EF91D1 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = BC7FD91D62D7F4F546121FD2 /* NSArray+PureLayout.h */; };
-		77E3227B64A1794094159AEA /* ORTagBasedAutoStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = F97B4EAA7272B6314098BBA5 /* ORTagBasedAutoStackView.h */; };
-		78211FC21AC99C7B326370B4 /* Pods-iOSLibs-FLKAutoLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC77B76E72EDB91743EFD679 /* Pods-iOSLibs-FLKAutoLayout-dummy.m */; };
-		80A972F1E11E292D9B8137CF /* NSLayoutConstraint+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 67673EACF8625B15B23C76E7 /* NSLayoutConstraint+FLKAutoLayoutDebug.h */; };
-		84955C4F1E973F10C561B73A /* ORStackView+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 761BE19EC154CBB4236A4508 /* ORStackView+Private.m */; };
-		867213B6A75542A7C93F98E8 /* ORStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3A965C629764FD1A2A3D9C /* ORStackView.m */; };
-		87FE0C280EDE63EBF99A7D86 /* ORStackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A94449D9925351946F91418A /* ORStackViewController.m */; };
-		8B25C5C2C87B2D5447712D85 /* ORStackViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F7E1FE4CDE5B6B8849BF34B /* ORStackViewController.h */; };
-		92062E1B98D598115E86C958 /* UIView+FLKAutoLayoutPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED576D97940173901ED58E24 /* UIView+FLKAutoLayoutPredicate.m */; };
-		9325CCCC8BA2F89723241E6E /* ORStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 33320DC7339E41A359A00424 /* ORStackView.h */; };
-		93AEE30C2FDC64397D763C55 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = A59F516DADEB9D9C65770947 /* PureLayoutDefines.h */; };
-		95162A760DF075EA8FEC17DD /* UIView+FLKAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DA67D8E24EFF7E2DC6DCE7A9 /* UIView+FLKAutoLayout.m */; };
-		96CA5141DE9261100C35ACAA /* UIView+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = A64B7319EEFF7E2D3F43DB0D /* UIView+FLKAutoLayoutDebug.h */; };
-		9F6B8F55A3C42D1D86B27746 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580890970FE9969AA6AFCF9 /* ALView+PureLayout.h */; };
-		9F76D70B8ED5B3097B7CEB14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259629054441B531C8AE4463 /* Foundation.framework */; };
-		AD727573B71817D5F2258D78 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = C151BABE3175E896B5602EB6 /* PureLayout+Internal.h */; };
-		ADAA6AD2C41752254A8679F5 /* UIView+FLKAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = C9528A5AAA68CF4112E25420 /* UIView+FLKAutoLayout.h */; };
-		AF9150DDC2048AC89FC4845E /* NSLayoutConstraint+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 7432FF447CDC7A21560D39EA /* NSLayoutConstraint+FLKAutoLayoutDebug.m */; };
-		B0D00DA16F737F221A0AEBFB /* UIView+FLKAutoLayoutPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBDFBB05A9BFB155AFB50B0 /* UIView+FLKAutoLayoutPredicate.h */; };
-		BC08D993D5ED07668B35A836 /* Pods-iOSLibs-PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F3849B14D59B25A3777119 /* Pods-iOSLibs-PureLayout-dummy.m */; };
-		BDCFED7794B93948E5722B29 /* Pods-iOSLibs-ORStackView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E659B142B214E0722042DD2 /* Pods-iOSLibs-ORStackView-dummy.m */; };
-		EC0CD2AACD23067065CA3F0E /* ORSplitStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4959E48DA00FA03E538C23F3 /* ORSplitStackView.m */; };
-		ED1846E0D1C85D775820FEA0 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E15966662E2E12427FC552 /* NSArray+PureLayout.m */; };
-		F312170FDE6A9B78C95BBF64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259629054441B531C8AE4463 /* Foundation.framework */; };
-		FEACA374B7A7DF97FC7BD192 /* ORTagBasedAutoStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3A9CE6914A7DB26A4CA562 /* ORTagBasedAutoStackView.m */; };
+		01AD7588CA12C41AB896F242 /* ORStackScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F52C52AD663C4B0566B163 /* ORStackScrollView.h */; };
+		023A4677F005D0A572465BE4 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = AE156164B05B75A41DB2CAD9 /* ALView+PureLayout.h */; };
+		07AAB84C72FC2AC6533A9BD9 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D413446E59EC343563C5C4 /* ALView+PureLayout.m */; };
+		0B639E1B5D1B39D839158314 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB3A071DB9A02873DC4A262 /* PureLayoutDefines.h */; };
+		0B8E7A936446CF6702D6994D /* ORSplitStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = D75434909F28D2EF54BDE523 /* ORSplitStackView.m */; };
+		0ED518058728E06AF782DC93 /* ORStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3F41949F7B8492B344662B /* ORStackView.m */; };
+		14A3A312ED7A36B8DB017E41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265A6CE5FD670E5E22B73A65 /* Foundation.framework */; };
+		2B60043D39B92DFBD345DF36 /* ORTagBasedAutoStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B81A72C119E6F73981C37D /* ORTagBasedAutoStackView.m */; };
+		2B8C3E93A6A02288D0BEDBB8 /* FLKAutoLayoutPredicateList.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB08B7B0B6203A4CA707660 /* FLKAutoLayoutPredicateList.h */; };
+		2E0AA5D452B341D98D879C16 /* UIView+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8D0080247259FC3850CEAC /* UIView+FLKAutoLayoutDebug.m */; };
+		2F7016DCD3506609E67B843C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265A6CE5FD670E5E22B73A65 /* Foundation.framework */; };
+		36F924D6504BD9738F4688E9 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B427951B464C317FEACBEC27 /* NSLayoutConstraint+PureLayout.h */; };
+		3BD18A9D4970B04AE1929B47 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C1DB756EAAFA513AE591B74 /* NSArray+PureLayout.h */; };
+		43CD68EDB4D7B38B43ECCB12 /* Pods-iOSLibs-FLKAutoLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E28ED1ED68803973D514D531 /* Pods-iOSLibs-FLKAutoLayout-dummy.m */; };
+		46A5C7B21C26B980FCD48A82 /* ORStackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C09E346A6B92A49EBAAECC /* ORStackViewController.m */; };
+		591C8F3A17C4B95287E8E73E /* NSLayoutConstraint+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB08A66720565786D4D2AF6 /* NSLayoutConstraint+FLKAutoLayoutDebug.m */; };
+		5A32B32A7FC20C785121D658 /* UIView+FLKAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 597B693A750BD60933FE1D4B /* UIView+FLKAutoLayout.m */; };
+		60E746C91A5E9DF12E15A817 /* Pods-iOSLibs-ORStackView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 058345935D67278F7208C88D /* Pods-iOSLibs-ORStackView-dummy.m */; };
+		6E57EC273D390DD0AD4994C5 /* ORStackViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 85578AE62630D5A8BF30645C /* ORStackViewController.h */; };
+		8B376394194BB24C278E5505 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265A6CE5FD670E5E22B73A65 /* Foundation.framework */; };
+		95979BB42796ED39038EAEDF /* UIView+FLKAutoLayoutPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6312D5C0F0E814250FF9D63 /* UIView+FLKAutoLayoutPredicate.m */; };
+		963FFE5FD782949C6A1C1296 /* UIView+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD3328EA4D03C6541CA1269 /* UIView+FLKAutoLayoutDebug.h */; };
+		97D43325429B7AD6259A3B24 /* Pods-iOSLibs-PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA198EAE9BD9F5DC2A2285A9 /* Pods-iOSLibs-PureLayout-dummy.m */; };
+		984A37FD21A87CCFBD3CAAE6 /* ORTagBasedAutoStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E180B4490E1162D86B974C /* ORTagBasedAutoStackView.h */; };
+		9F1189549DDD57CE585209E6 /* NSLayoutConstraint+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 383DCB1B793713E00D9B6249 /* NSLayoutConstraint+FLKAutoLayoutDebug.h */; };
+		A00669F0ABEF9E1A2A81F0F1 /* ORStackView+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9B344A44CCF0B96C9B3573 /* ORStackView+Private.m */; };
+		B0456821AE28A79E4BD97711 /* FLKAutoLayoutPredicateList.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6AA7CE1E5FACD0A14572BA /* FLKAutoLayoutPredicateList.m */; };
+		BA1212440C8C1CD0B9AFB0DB /* ORStackView+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 44EF7ABA80E0BBA81A28F1A0 /* ORStackView+Private.h */; };
+		C3E35662770F20DFE2A1F33D /* ORSplitStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 28099088EECE3E0374CE5107 /* ORSplitStackView.h */; };
+		C684DE84D6318D763F930E91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265A6CE5FD670E5E22B73A65 /* Foundation.framework */; };
+		C703B95D5CF69C5A6646841C /* Pods-iOSLibs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 224DC16684F29633B47DB4F0 /* Pods-iOSLibs-dummy.m */; };
+		C799318A180511B734EC65F5 /* ORStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA62F8A7D4E8A0AC7EA9756C /* ORStackView.h */; };
+		CF3B0CDCC4E1EA62A1B842C2 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B686BC1B3E1BB91CF5A23BE /* NSArray+PureLayout.m */; };
+		D6957144C6AF5022E589976C /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0831E73CE1E6AFFDE72938 /* NSLayoutConstraint+PureLayout.m */; };
+		D9F55094C8395A47434C5930 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D762A95EFA6E2491177B10F /* PureLayout.h */; };
+		DF80CAA7B8B2D7D52DA31C43 /* UIView+FLKAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = BFDEC27D03439485293F606D /* UIView+FLKAutoLayout.h */; };
+		E832D4976235AB84C013CC96 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 48F0A3956D0B1E41191D181F /* PureLayout+Internal.h */; };
+		ED353B4A5CCAB5ABE3111BA9 /* UIView+FLKAutoLayoutPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = BD41AA159F9E134610DAE8FF /* UIView+FLKAutoLayoutPredicate.h */; };
+		F9BC3B5E80E1091C824B030F /* ORStackScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA9B08FAE84EB89F3D72146 /* ORStackScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		357686146DB593240EA9F06C /* PBXContainerItemProxy */ = {
+		0AF298C11A93870D016EDBBB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 64560FA9B2C8AE573BF59DF7 /* Project object */;
+			containerPortal = 958255C8E20B9AA097F5E58A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DDFE7106CACD856AFAFA6748;
-			remoteInfo = "Pods-iOSLibs-FLKAutoLayout";
-		};
-		A2CAAD30CF9281D3069CBFC7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 64560FA9B2C8AE573BF59DF7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1CE0CA6FE2A4FF2AFEA49FB9;
+			remoteGlobalIDString = 5B6E01D887A81974A3F7141C;
 			remoteInfo = "Pods-iOSLibs-ORStackView";
 		};
-		B96734869893B110901ACC94 /* PBXContainerItemProxy */ = {
+		0DC6084D070449E733E7CB62 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 64560FA9B2C8AE573BF59DF7 /* Project object */;
+			containerPortal = 958255C8E20B9AA097F5E58A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 525A98E78C526C696642E5EE;
-			remoteInfo = "Pods-iOSLibs-PureLayout";
-		};
-		D7258B76646E177302B236DA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 64560FA9B2C8AE573BF59DF7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DDFE7106CACD856AFAFA6748;
+			remoteGlobalIDString = 8383FE1EB90EE07C87675311;
 			remoteInfo = "Pods-iOSLibs-FLKAutoLayout";
+		};
+		933E48038839A5DF633A6A0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 958255C8E20B9AA097F5E58A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8383FE1EB90EE07C87675311;
+			remoteInfo = "Pods-iOSLibs-FLKAutoLayout";
+		};
+		9FE1DC61776D9B45A5CB3A63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 958255C8E20B9AA097F5E58A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88C26287261B74735722C4A2;
+			remoteInfo = "Pods-iOSLibs-PureLayout";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0175C45A196DC2F6469FF420 /* libPods-iOSLibs-FLKAutoLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSLibs-FLKAutoLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		02F3849B14D59B25A3777119 /* Pods-iOSLibs-PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSLibs-PureLayout-dummy.m"; sourceTree = "<group>"; };
-		0656D3D160613B832D72A11D /* Pods-iOSLibs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSLibs.debug.xcconfig"; sourceTree = "<group>"; };
-		151DAF6B3C452DE60EDCF927 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
-		1580890970FE9969AA6AFCF9 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
-		1F7E1FE4CDE5B6B8849BF34B /* ORStackViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORStackViewController.h; path = Classes/ios/ORStackViewController.h; sourceTree = "<group>"; };
-		222319EFA1E784319B26E9D4 /* Pods-iOSLibs-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSLibs-acknowledgements.markdown"; sourceTree = "<group>"; };
-		24E933FD232FEDA4C98FD1E3 /* Pods-iOSLibs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSLibs.release.xcconfig"; sourceTree = "<group>"; };
-		259629054441B531C8AE4463 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		2BEF3CF51D38E0012627F9BD /* ORStackScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORStackScrollView.m; path = Classes/ios/ORStackScrollView.m; sourceTree = "<group>"; };
-		2CEF3B0DBE5510CD9031EED9 /* ORSplitStackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSplitStackView.h; path = Classes/ios/ORSplitStackView.h; sourceTree = "<group>"; };
-		31E91F7189A89A21C09C8645 /* Pods-iOSLibs-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSLibs-acknowledgements.plist"; sourceTree = "<group>"; };
-		33320DC7339E41A359A00424 /* ORStackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORStackView.h; path = Classes/ios/ORStackView.h; sourceTree = "<group>"; };
-		38501D59F562A9EDA7755B67 /* ORStackScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORStackScrollView.h; path = Classes/ios/ORStackScrollView.h; sourceTree = "<group>"; };
-		3BF13B4EF5BCA318632F976C /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		447B4ED95F27821BC6EA4BA3 /* Pods-iOSLibs-FLKAutoLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSLibs-FLKAutoLayout-prefix.pch"; sourceTree = "<group>"; };
-		4959E48DA00FA03E538C23F3 /* ORSplitStackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSplitStackView.m; path = Classes/ios/ORSplitStackView.m; sourceTree = "<group>"; };
-		5AD846615174165A8756015C /* Pods-iOSLibs-ORStackView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSLibs-ORStackView.xcconfig"; sourceTree = "<group>"; };
-		62759E3A0B2562C83EFBC5C3 /* libPods-iOSLibs-ORStackView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSLibs-ORStackView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		67673EACF8625B15B23C76E7 /* NSLayoutConstraint+FLKAutoLayoutDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+FLKAutoLayoutDebug.h"; path = "FLKAutoLayout/NSLayoutConstraint+FLKAutoLayoutDebug.h"; sourceTree = "<group>"; };
-		6F882090A4F1DEEB8ADBC686 /* Pods-iOSLibs-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSLibs-environment.h"; sourceTree = "<group>"; };
-		7432FF447CDC7A21560D39EA /* NSLayoutConstraint+FLKAutoLayoutDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+FLKAutoLayoutDebug.m"; path = "FLKAutoLayout/NSLayoutConstraint+FLKAutoLayoutDebug.m"; sourceTree = "<group>"; };
-		761BE19EC154CBB4236A4508 /* ORStackView+Private.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ORStackView+Private.m"; path = "Classes/ios/private/ORStackView+Private.m"; sourceTree = "<group>"; };
-		76604F414D816554916AA5D9 /* Pods-iOSLibs-FLKAutoLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSLibs-FLKAutoLayout.xcconfig"; sourceTree = "<group>"; };
-		8CE7D7EB976D1FD57800FCC2 /* libPods-iOSLibs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSLibs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E659B142B214E0722042DD2 /* Pods-iOSLibs-ORStackView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSLibs-ORStackView-dummy.m"; sourceTree = "<group>"; };
-		9ED8FA595334BAFCD6578139 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
-		A139FF50F01BF8E87D14F0F3 /* Pods-iOSLibs-FLKAutoLayout-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSLibs-FLKAutoLayout-Private.xcconfig"; sourceTree = "<group>"; };
-		A2B3278CF2B62023F1F48267 /* libPods-iOSLibs-PureLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSLibs-PureLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A59F516DADEB9D9C65770947 /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
-		A64B7319EEFF7E2D3F43DB0D /* UIView+FLKAutoLayoutDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayoutDebug.h"; path = "FLKAutoLayout/UIView+FLKAutoLayoutDebug.h"; sourceTree = "<group>"; };
-		A94449D9925351946F91418A /* ORStackViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORStackViewController.m; path = Classes/ios/ORStackViewController.m; sourceTree = "<group>"; };
-		AAAAD260DFE71C28AD1626CE /* Pods-iOSLibs-PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSLibs-PureLayout.xcconfig"; sourceTree = "<group>"; };
-		ACA4AD078FA6CD4004B5D791 /* Pods-iOSLibs-PureLayout-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSLibs-PureLayout-Private.xcconfig"; sourceTree = "<group>"; };
-		B874A99D4CA17221EE18010F /* ORStackView+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ORStackView+Private.h"; path = "Classes/ios/private/ORStackView+Private.h"; sourceTree = "<group>"; };
-		BB6C64C0A7BE83188CD3B61A /* Pods-iOSLibs-ORStackView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSLibs-ORStackView-Private.xcconfig"; sourceTree = "<group>"; };
-		BC7FD91D62D7F4F546121FD2 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
-		BDBDFBB05A9BFB155AFB50B0 /* UIView+FLKAutoLayoutPredicate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayoutPredicate.h"; path = "FLKAutoLayout/UIView+FLKAutoLayoutPredicate.h"; sourceTree = "<group>"; };
-		C151BABE3175E896B5602EB6 /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
-		C70F6BFF57B88D7A35847D66 /* FLKAutoLayoutPredicateList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLKAutoLayoutPredicateList.h; path = FLKAutoLayout/FLKAutoLayoutPredicateList.h; sourceTree = "<group>"; };
-		C9528A5AAA68CF4112E25420 /* UIView+FLKAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayout.h"; path = "FLKAutoLayout/UIView+FLKAutoLayout.h"; sourceTree = "<group>"; };
-		C98D8311BA097D9CBCBA889D /* Pods-iOSLibs-PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSLibs-PureLayout-prefix.pch"; sourceTree = "<group>"; };
-		CC3A965C629764FD1A2A3D9C /* ORStackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORStackView.m; path = Classes/ios/ORStackView.m; sourceTree = "<group>"; };
-		D794E3742704CF803E0C4364 /* Pods-iOSLibs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSLibs-dummy.m"; sourceTree = "<group>"; };
-		DA67D8E24EFF7E2DC6DCE7A9 /* UIView+FLKAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayout.m"; path = "FLKAutoLayout/UIView+FLKAutoLayout.m"; sourceTree = "<group>"; };
-		DB363B478DDD1DE642A7588E /* UIView+FLKAutoLayoutDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayoutDebug.m"; path = "FLKAutoLayout/UIView+FLKAutoLayoutDebug.m"; sourceTree = "<group>"; };
-		DC120C32955891DC5A147493 /* FLKAutoLayoutPredicateList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLKAutoLayoutPredicateList.m; path = FLKAutoLayout/FLKAutoLayoutPredicateList.m; sourceTree = "<group>"; };
-		E044CC2FD930218798D017BF /* Pods-iOSLibs-ORStackView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSLibs-ORStackView-prefix.pch"; sourceTree = "<group>"; };
-		E15CB5788BE90E03ED5A45C4 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
-		E4D290CAB22547C8BA8650B7 /* Pods-iOSLibs-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSLibs-resources.sh"; sourceTree = "<group>"; };
-		ED576D97940173901ED58E24 /* UIView+FLKAutoLayoutPredicate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayoutPredicate.m"; path = "FLKAutoLayout/UIView+FLKAutoLayoutPredicate.m"; sourceTree = "<group>"; };
-		EE3A9CE6914A7DB26A4CA562 /* ORTagBasedAutoStackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORTagBasedAutoStackView.m; path = Classes/ios/ORTagBasedAutoStackView.m; sourceTree = "<group>"; };
-		F0E15966662E2E12427FC552 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
-		F3AFEB0982964C687E004A06 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
-		F97B4EAA7272B6314098BBA5 /* ORTagBasedAutoStackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORTagBasedAutoStackView.h; path = Classes/ios/ORTagBasedAutoStackView.h; sourceTree = "<group>"; };
-		FC77B76E72EDB91743EFD679 /* Pods-iOSLibs-FLKAutoLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSLibs-FLKAutoLayout-dummy.m"; sourceTree = "<group>"; };
+		058345935D67278F7208C88D /* Pods-iOSLibs-ORStackView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSLibs-ORStackView-dummy.m"; sourceTree = "<group>"; };
+		0AB08B7B0B6203A4CA707660 /* FLKAutoLayoutPredicateList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLKAutoLayoutPredicateList.h; path = FLKAutoLayout/FLKAutoLayoutPredicateList.h; sourceTree = "<group>"; };
+		13CB6DCE639472A2329B1CFD /* Pods-iOSLibs-ORStackView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSLibs-ORStackView.xcconfig"; sourceTree = "<group>"; };
+		1801E0209D10532B479EDC15 /* libPods-iOSLibs-FLKAutoLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSLibs-FLKAutoLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B686BC1B3E1BB91CF5A23BE /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		224DC16684F29633B47DB4F0 /* Pods-iOSLibs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSLibs-dummy.m"; sourceTree = "<group>"; };
+		249860F7CA93E1A29F0209BC /* Pods-iOSLibs-ORStackView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSLibs-ORStackView-prefix.pch"; sourceTree = "<group>"; };
+		265A6CE5FD670E5E22B73A65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		28099088EECE3E0374CE5107 /* ORSplitStackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSplitStackView.h; path = Classes/ios/ORSplitStackView.h; sourceTree = "<group>"; };
+		2E86DB7A89A94362FA0BFB57 /* libPods-iOSLibs-ORStackView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSLibs-ORStackView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		353699F6887C55F008335305 /* Pods-iOSLibs-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSLibs-resources.sh"; sourceTree = "<group>"; };
+		37703FC8EB47BEB2CD566965 /* Pods-iOSLibs-FLKAutoLayout-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSLibs-FLKAutoLayout-Private.xcconfig"; sourceTree = "<group>"; };
+		383DCB1B793713E00D9B6249 /* NSLayoutConstraint+FLKAutoLayoutDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+FLKAutoLayoutDebug.h"; path = "FLKAutoLayout/NSLayoutConstraint+FLKAutoLayoutDebug.h"; sourceTree = "<group>"; };
+		3C1DB756EAAFA513AE591B74 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		43129FCA57CBCD3F44620D72 /* Pods-iOSLibs-PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSLibs-PureLayout.xcconfig"; sourceTree = "<group>"; };
+		44EF7ABA80E0BBA81A28F1A0 /* ORStackView+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ORStackView+Private.h"; path = "Classes/ios/private/ORStackView+Private.h"; sourceTree = "<group>"; };
+		48BD364E345D8960711EAD66 /* Pods-iOSLibs-FLKAutoLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSLibs-FLKAutoLayout.xcconfig"; sourceTree = "<group>"; };
+		48F0A3956D0B1E41191D181F /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
+		4F0831E73CE1E6AFFDE72938 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		52F52C52AD663C4B0566B163 /* ORStackScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORStackScrollView.h; path = Classes/ios/ORStackScrollView.h; sourceTree = "<group>"; };
+		5459100F712CFCACA5899380 /* Pods-iOSLibs-PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSLibs-PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		573A3D90E16BB03F0375286F /* Pods-iOSLibs-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSLibs-acknowledgements.plist"; sourceTree = "<group>"; };
+		597B693A750BD60933FE1D4B /* UIView+FLKAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayout.m"; path = "FLKAutoLayout/UIView+FLKAutoLayout.m"; sourceTree = "<group>"; };
+		5E93C45105487C891FF81634 /* Pods-iOSLibs-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSLibs-environment.h"; sourceTree = "<group>"; };
+		6BA9B08FAE84EB89F3D72146 /* ORStackScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORStackScrollView.m; path = Classes/ios/ORStackScrollView.m; sourceTree = "<group>"; };
+		6C4D8445E16C51AE509C89DF /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6D762A95EFA6E2491177B10F /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
+		6EB3A071DB9A02873DC4A262 /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
+		82D413446E59EC343563C5C4 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
+		85578AE62630D5A8BF30645C /* ORStackViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORStackViewController.h; path = Classes/ios/ORStackViewController.h; sourceTree = "<group>"; };
+		86E180B4490E1162D86B974C /* ORTagBasedAutoStackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORTagBasedAutoStackView.h; path = Classes/ios/ORTagBasedAutoStackView.h; sourceTree = "<group>"; };
+		9FD3328EA4D03C6541CA1269 /* UIView+FLKAutoLayoutDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayoutDebug.h"; path = "FLKAutoLayout/UIView+FLKAutoLayoutDebug.h"; sourceTree = "<group>"; };
+		A6312D5C0F0E814250FF9D63 /* UIView+FLKAutoLayoutPredicate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayoutPredicate.m"; path = "FLKAutoLayout/UIView+FLKAutoLayoutPredicate.m"; sourceTree = "<group>"; };
+		AA62F8A7D4E8A0AC7EA9756C /* ORStackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORStackView.h; path = Classes/ios/ORStackView.h; sourceTree = "<group>"; };
+		AB9104493BA2848D996BB537 /* libPods-iOSLibs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSLibs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE156164B05B75A41DB2CAD9 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
+		B427951B464C317FEACBEC27 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		BBB08A66720565786D4D2AF6 /* NSLayoutConstraint+FLKAutoLayoutDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+FLKAutoLayoutDebug.m"; path = "FLKAutoLayout/NSLayoutConstraint+FLKAutoLayoutDebug.m"; sourceTree = "<group>"; };
+		BD41AA159F9E134610DAE8FF /* UIView+FLKAutoLayoutPredicate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayoutPredicate.h"; path = "FLKAutoLayout/UIView+FLKAutoLayoutPredicate.h"; sourceTree = "<group>"; };
+		BFDEC27D03439485293F606D /* UIView+FLKAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayout.h"; path = "FLKAutoLayout/UIView+FLKAutoLayout.h"; sourceTree = "<group>"; };
+		C0B81A72C119E6F73981C37D /* ORTagBasedAutoStackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORTagBasedAutoStackView.m; path = Classes/ios/ORTagBasedAutoStackView.m; sourceTree = "<group>"; };
+		C1C09E346A6B92A49EBAAECC /* ORStackViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORStackViewController.m; path = Classes/ios/ORStackViewController.m; sourceTree = "<group>"; };
+		C67F8FC9078A632D02F04CBD /* libPods-iOSLibs-PureLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSLibs-PureLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3F41949F7B8492B344662B /* ORStackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORStackView.m; path = Classes/ios/ORStackView.m; sourceTree = "<group>"; };
+		CC69A9F5D622FF8768AB0C2A /* Pods-iOSLibs-PureLayout-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSLibs-PureLayout-Private.xcconfig"; sourceTree = "<group>"; };
+		CC9B344A44CCF0B96C9B3573 /* ORStackView+Private.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ORStackView+Private.m"; path = "Classes/ios/private/ORStackView+Private.m"; sourceTree = "<group>"; };
+		CCA24CC60A887899AF504D2D /* Pods-iOSLibs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSLibs.release.xcconfig"; sourceTree = "<group>"; };
+		CD8D0080247259FC3850CEAC /* UIView+FLKAutoLayoutDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayoutDebug.m"; path = "FLKAutoLayout/UIView+FLKAutoLayoutDebug.m"; sourceTree = "<group>"; };
+		D75434909F28D2EF54BDE523 /* ORSplitStackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSplitStackView.m; path = Classes/ios/ORSplitStackView.m; sourceTree = "<group>"; };
+		DA69181D9A31890F8FC6F942 /* Pods-iOSLibs-ORStackView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSLibs-ORStackView-Private.xcconfig"; sourceTree = "<group>"; };
+		E28ED1ED68803973D514D531 /* Pods-iOSLibs-FLKAutoLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSLibs-FLKAutoLayout-dummy.m"; sourceTree = "<group>"; };
+		E2E17663386DE97B052049C3 /* Pods-iOSLibs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSLibs.debug.xcconfig"; sourceTree = "<group>"; };
+		F66545BF370D65051A7894F8 /* Pods-iOSLibs-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSLibs-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F84430D4F42C4D52BDBC3A72 /* Pods-iOSLibs-FLKAutoLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSLibs-FLKAutoLayout-prefix.pch"; sourceTree = "<group>"; };
+		FA198EAE9BD9F5DC2A2285A9 /* Pods-iOSLibs-PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSLibs-PureLayout-dummy.m"; sourceTree = "<group>"; };
+		FC6AA7CE1E5FACD0A14572BA /* FLKAutoLayoutPredicateList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLKAutoLayoutPredicateList.m; path = FLKAutoLayout/FLKAutoLayoutPredicateList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		573E5ADBAB7510B0D775D968 /* Frameworks */ = {
+		084549D46DEB042A1145A4C8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				091558388DC5D2DA31A8B12B /* Foundation.framework in Frameworks */,
+				2F7016DCD3506609E67B843C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63DA84119099DEE4AB36FE32 /* Frameworks */ = {
+		30A2B2BAA26D4F486FE463FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F312170FDE6A9B78C95BBF64 /* Foundation.framework in Frameworks */,
+				14A3A312ED7A36B8DB017E41 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8225FD3F58439FCA8ACF9FB /* Frameworks */ = {
+		42FAE987AE094456C9E1CFF4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F76D70B8ED5B3097B7CEB14 /* Foundation.framework in Frameworks */,
+				C684DE84D6318D763F930E91 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE32537477BA24E3C16FE259 /* Frameworks */ = {
+		7B73BADA39D2AB205FADFA47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30CEFC754558B19B149E52E3 /* Foundation.framework in Frameworks */,
+				8B376394194BB24C278E5505 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03169A49D4D9DA9C27427154 /* Support Files */ = {
+		0F649DA61E8624E9217349F8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5AD846615174165A8756015C /* Pods-iOSLibs-ORStackView.xcconfig */,
-				BB6C64C0A7BE83188CD3B61A /* Pods-iOSLibs-ORStackView-Private.xcconfig */,
-				9E659B142B214E0722042DD2 /* Pods-iOSLibs-ORStackView-dummy.m */,
-				E044CC2FD930218798D017BF /* Pods-iOSLibs-ORStackView-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-iOSLibs-ORStackView";
-			sourceTree = "<group>";
-		};
-		0FF4FB61D21055C67606EBBE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8CE7D7EB976D1FD57800FCC2 /* libPods-iOSLibs.a */,
-				0175C45A196DC2F6469FF420 /* libPods-iOSLibs-FLKAutoLayout.a */,
-				62759E3A0B2562C83EFBC5C3 /* libPods-iOSLibs-ORStackView.a */,
-				A2B3278CF2B62023F1F48267 /* libPods-iOSLibs-PureLayout.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		15B0F468674410BABCA8E38C = {
-			isa = PBXGroup;
-			children = (
-				3BF13B4EF5BCA318632F976C /* Podfile */,
-				DC1DAE5044031BD218C16F4B /* Frameworks */,
-				29154DBD78D7B81E8FFDD518 /* Pods */,
-				0FF4FB61D21055C67606EBBE /* Products */,
-				69ECD381F166E707ADD93B9A /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		29154DBD78D7B81E8FFDD518 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6F0F907D67D824F5862C3B3A /* FLKAutoLayout */,
-				B3304AF878385CC8EB62A271 /* ORStackView */,
-				57FB551994E61A0B7EDDC42B /* PureLayout */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		30E04737FC8A8E1C7361B1FB /* Pods-iOSLibs */ = {
-			isa = PBXGroup;
-			children = (
-				222319EFA1E784319B26E9D4 /* Pods-iOSLibs-acknowledgements.markdown */,
-				31E91F7189A89A21C09C8645 /* Pods-iOSLibs-acknowledgements.plist */,
-				D794E3742704CF803E0C4364 /* Pods-iOSLibs-dummy.m */,
-				6F882090A4F1DEEB8ADBC686 /* Pods-iOSLibs-environment.h */,
-				E4D290CAB22547C8BA8650B7 /* Pods-iOSLibs-resources.sh */,
-				0656D3D160613B832D72A11D /* Pods-iOSLibs.debug.xcconfig */,
-				24E933FD232FEDA4C98FD1E3 /* Pods-iOSLibs.release.xcconfig */,
-			);
-			name = "Pods-iOSLibs";
-			path = "Target Support Files/Pods-iOSLibs";
-			sourceTree = "<group>";
-		};
-		57FB551994E61A0B7EDDC42B /* PureLayout */ = {
-			isa = PBXGroup;
-			children = (
-				1580890970FE9969AA6AFCF9 /* ALView+PureLayout.h */,
-				151DAF6B3C452DE60EDCF927 /* ALView+PureLayout.m */,
-				BC7FD91D62D7F4F546121FD2 /* NSArray+PureLayout.h */,
-				F0E15966662E2E12427FC552 /* NSArray+PureLayout.m */,
-				F3AFEB0982964C687E004A06 /* NSLayoutConstraint+PureLayout.h */,
-				E15CB5788BE90E03ED5A45C4 /* NSLayoutConstraint+PureLayout.m */,
-				9ED8FA595334BAFCD6578139 /* PureLayout.h */,
-				C151BABE3175E896B5602EB6 /* PureLayout+Internal.h */,
-				A59F516DADEB9D9C65770947 /* PureLayoutDefines.h */,
-				DD3F206ACEFEC41D53585757 /* Support Files */,
-			);
-			path = PureLayout;
-			sourceTree = "<group>";
-		};
-		69ECD381F166E707ADD93B9A /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				30E04737FC8A8E1C7361B1FB /* Pods-iOSLibs */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		6F0F907D67D824F5862C3B3A /* FLKAutoLayout */ = {
-			isa = PBXGroup;
-			children = (
-				C70F6BFF57B88D7A35847D66 /* FLKAutoLayoutPredicateList.h */,
-				DC120C32955891DC5A147493 /* FLKAutoLayoutPredicateList.m */,
-				67673EACF8625B15B23C76E7 /* NSLayoutConstraint+FLKAutoLayoutDebug.h */,
-				7432FF447CDC7A21560D39EA /* NSLayoutConstraint+FLKAutoLayoutDebug.m */,
-				C9528A5AAA68CF4112E25420 /* UIView+FLKAutoLayout.h */,
-				DA67D8E24EFF7E2DC6DCE7A9 /* UIView+FLKAutoLayout.m */,
-				A64B7319EEFF7E2D3F43DB0D /* UIView+FLKAutoLayoutDebug.h */,
-				DB363B478DDD1DE642A7588E /* UIView+FLKAutoLayoutDebug.m */,
-				BDBDFBB05A9BFB155AFB50B0 /* UIView+FLKAutoLayoutPredicate.h */,
-				ED576D97940173901ED58E24 /* UIView+FLKAutoLayoutPredicate.m */,
-				A1732B48259A53BAAB60976C /* Support Files */,
-			);
-			path = FLKAutoLayout;
-			sourceTree = "<group>";
-		};
-		7B23186DD16EBAB3949C3A8B /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				259629054441B531C8AE4463 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		A1732B48259A53BAAB60976C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				76604F414D816554916AA5D9 /* Pods-iOSLibs-FLKAutoLayout.xcconfig */,
-				A139FF50F01BF8E87D14F0F3 /* Pods-iOSLibs-FLKAutoLayout-Private.xcconfig */,
-				FC77B76E72EDB91743EFD679 /* Pods-iOSLibs-FLKAutoLayout-dummy.m */,
-				447B4ED95F27821BC6EA4BA3 /* Pods-iOSLibs-FLKAutoLayout-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-iOSLibs-FLKAutoLayout";
-			sourceTree = "<group>";
-		};
-		B3304AF878385CC8EB62A271 /* ORStackView */ = {
-			isa = PBXGroup;
-			children = (
-				2CEF3B0DBE5510CD9031EED9 /* ORSplitStackView.h */,
-				4959E48DA00FA03E538C23F3 /* ORSplitStackView.m */,
-				38501D59F562A9EDA7755B67 /* ORStackScrollView.h */,
-				2BEF3CF51D38E0012627F9BD /* ORStackScrollView.m */,
-				33320DC7339E41A359A00424 /* ORStackView.h */,
-				CC3A965C629764FD1A2A3D9C /* ORStackView.m */,
-				B874A99D4CA17221EE18010F /* ORStackView+Private.h */,
-				761BE19EC154CBB4236A4508 /* ORStackView+Private.m */,
-				1F7E1FE4CDE5B6B8849BF34B /* ORStackViewController.h */,
-				A94449D9925351946F91418A /* ORStackViewController.m */,
-				F97B4EAA7272B6314098BBA5 /* ORTagBasedAutoStackView.h */,
-				EE3A9CE6914A7DB26A4CA562 /* ORTagBasedAutoStackView.m */,
-				03169A49D4D9DA9C27427154 /* Support Files */,
-			);
-			path = ORStackView;
-			sourceTree = "<group>";
-		};
-		DC1DAE5044031BD218C16F4B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7B23186DD16EBAB3949C3A8B /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DD3F206ACEFEC41D53585757 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AAAAD260DFE71C28AD1626CE /* Pods-iOSLibs-PureLayout.xcconfig */,
-				ACA4AD078FA6CD4004B5D791 /* Pods-iOSLibs-PureLayout-Private.xcconfig */,
-				02F3849B14D59B25A3777119 /* Pods-iOSLibs-PureLayout-dummy.m */,
-				C98D8311BA097D9CBCBA889D /* Pods-iOSLibs-PureLayout-prefix.pch */,
+				43129FCA57CBCD3F44620D72 /* Pods-iOSLibs-PureLayout.xcconfig */,
+				CC69A9F5D622FF8768AB0C2A /* Pods-iOSLibs-PureLayout-Private.xcconfig */,
+				FA198EAE9BD9F5DC2A2285A9 /* Pods-iOSLibs-PureLayout-dummy.m */,
+				5459100F712CFCACA5899380 /* Pods-iOSLibs-PureLayout-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-iOSLibs-PureLayout";
 			sourceTree = "<group>";
 		};
+		15DF034B8FF30315B4AA1779 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A23043E8444BA112DC3E4905 /* Pods-iOSLibs */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3F946BE0672A36351A40DAC8 = {
+			isa = PBXGroup;
+			children = (
+				6C4D8445E16C51AE509C89DF /* Podfile */,
+				98F547F9656A763B4FD67E34 /* Frameworks */,
+				6DA3EDF76C8F862BF982BDC1 /* Pods */,
+				A2E11FDEC4AB8E5C3CF7B702 /* Products */,
+				15DF034B8FF30315B4AA1779 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		4A336E274615C39A3BAD5490 /* FLKAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				0AB08B7B0B6203A4CA707660 /* FLKAutoLayoutPredicateList.h */,
+				FC6AA7CE1E5FACD0A14572BA /* FLKAutoLayoutPredicateList.m */,
+				383DCB1B793713E00D9B6249 /* NSLayoutConstraint+FLKAutoLayoutDebug.h */,
+				BBB08A66720565786D4D2AF6 /* NSLayoutConstraint+FLKAutoLayoutDebug.m */,
+				BFDEC27D03439485293F606D /* UIView+FLKAutoLayout.h */,
+				597B693A750BD60933FE1D4B /* UIView+FLKAutoLayout.m */,
+				9FD3328EA4D03C6541CA1269 /* UIView+FLKAutoLayoutDebug.h */,
+				CD8D0080247259FC3850CEAC /* UIView+FLKAutoLayoutDebug.m */,
+				BD41AA159F9E134610DAE8FF /* UIView+FLKAutoLayoutPredicate.h */,
+				A6312D5C0F0E814250FF9D63 /* UIView+FLKAutoLayoutPredicate.m */,
+				59278AC91737BF267D19918D /* Support Files */,
+			);
+			path = FLKAutoLayout;
+			sourceTree = "<group>";
+		};
+		59278AC91737BF267D19918D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				48BD364E345D8960711EAD66 /* Pods-iOSLibs-FLKAutoLayout.xcconfig */,
+				37703FC8EB47BEB2CD566965 /* Pods-iOSLibs-FLKAutoLayout-Private.xcconfig */,
+				E28ED1ED68803973D514D531 /* Pods-iOSLibs-FLKAutoLayout-dummy.m */,
+				F84430D4F42C4D52BDBC3A72 /* Pods-iOSLibs-FLKAutoLayout-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-iOSLibs-FLKAutoLayout";
+			sourceTree = "<group>";
+		};
+		68C7CC1BC3395DB9544E32A3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				13CB6DCE639472A2329B1CFD /* Pods-iOSLibs-ORStackView.xcconfig */,
+				DA69181D9A31890F8FC6F942 /* Pods-iOSLibs-ORStackView-Private.xcconfig */,
+				058345935D67278F7208C88D /* Pods-iOSLibs-ORStackView-dummy.m */,
+				249860F7CA93E1A29F0209BC /* Pods-iOSLibs-ORStackView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-iOSLibs-ORStackView";
+			sourceTree = "<group>";
+		};
+		6DA3EDF76C8F862BF982BDC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A336E274615C39A3BAD5490 /* FLKAutoLayout */,
+				B74CD4ED65DD8F405A039A2F /* ORStackView */,
+				7770F7B9B8C3343A865A7C55 /* PureLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7770F7B9B8C3343A865A7C55 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				AE156164B05B75A41DB2CAD9 /* ALView+PureLayout.h */,
+				82D413446E59EC343563C5C4 /* ALView+PureLayout.m */,
+				3C1DB756EAAFA513AE591B74 /* NSArray+PureLayout.h */,
+				1B686BC1B3E1BB91CF5A23BE /* NSArray+PureLayout.m */,
+				B427951B464C317FEACBEC27 /* NSLayoutConstraint+PureLayout.h */,
+				4F0831E73CE1E6AFFDE72938 /* NSLayoutConstraint+PureLayout.m */,
+				6D762A95EFA6E2491177B10F /* PureLayout.h */,
+				48F0A3956D0B1E41191D181F /* PureLayout+Internal.h */,
+				6EB3A071DB9A02873DC4A262 /* PureLayoutDefines.h */,
+				0F649DA61E8624E9217349F8 /* Support Files */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		98F547F9656A763B4FD67E34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5ED651A92A19A171EECC408 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A23043E8444BA112DC3E4905 /* Pods-iOSLibs */ = {
+			isa = PBXGroup;
+			children = (
+				F66545BF370D65051A7894F8 /* Pods-iOSLibs-acknowledgements.markdown */,
+				573A3D90E16BB03F0375286F /* Pods-iOSLibs-acknowledgements.plist */,
+				224DC16684F29633B47DB4F0 /* Pods-iOSLibs-dummy.m */,
+				5E93C45105487C891FF81634 /* Pods-iOSLibs-environment.h */,
+				353699F6887C55F008335305 /* Pods-iOSLibs-resources.sh */,
+				E2E17663386DE97B052049C3 /* Pods-iOSLibs.debug.xcconfig */,
+				CCA24CC60A887899AF504D2D /* Pods-iOSLibs.release.xcconfig */,
+			);
+			name = "Pods-iOSLibs";
+			path = "Target Support Files/Pods-iOSLibs";
+			sourceTree = "<group>";
+		};
+		A2E11FDEC4AB8E5C3CF7B702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB9104493BA2848D996BB537 /* libPods-iOSLibs.a */,
+				1801E0209D10532B479EDC15 /* libPods-iOSLibs-FLKAutoLayout.a */,
+				2E86DB7A89A94362FA0BFB57 /* libPods-iOSLibs-ORStackView.a */,
+				C67F8FC9078A632D02F04CBD /* libPods-iOSLibs-PureLayout.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5ED651A92A19A171EECC408 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				265A6CE5FD670E5E22B73A65 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B74CD4ED65DD8F405A039A2F /* ORStackView */ = {
+			isa = PBXGroup;
+			children = (
+				28099088EECE3E0374CE5107 /* ORSplitStackView.h */,
+				D75434909F28D2EF54BDE523 /* ORSplitStackView.m */,
+				52F52C52AD663C4B0566B163 /* ORStackScrollView.h */,
+				6BA9B08FAE84EB89F3D72146 /* ORStackScrollView.m */,
+				AA62F8A7D4E8A0AC7EA9756C /* ORStackView.h */,
+				CC3F41949F7B8492B344662B /* ORStackView.m */,
+				44EF7ABA80E0BBA81A28F1A0 /* ORStackView+Private.h */,
+				CC9B344A44CCF0B96C9B3573 /* ORStackView+Private.m */,
+				85578AE62630D5A8BF30645C /* ORStackViewController.h */,
+				C1C09E346A6B92A49EBAAECC /* ORStackViewController.m */,
+				86E180B4490E1162D86B974C /* ORTagBasedAutoStackView.h */,
+				C0B81A72C119E6F73981C37D /* ORTagBasedAutoStackView.m */,
+				68C7CC1BC3395DB9544E32A3 /* Support Files */,
+			);
+			path = ORStackView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4917366171E9FA47EBF23B23 /* Headers */ = {
+		3E058285C124C7E1AE97CEB9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F6B8F55A3C42D1D86B27746 /* ALView+PureLayout.h in Headers */,
-				69BC251FDBDBEEDBF7EF91D1 /* NSArray+PureLayout.h in Headers */,
-				310D3BDE201C181F635C9310 /* NSLayoutConstraint+PureLayout.h in Headers */,
-				AD727573B71817D5F2258D78 /* PureLayout+Internal.h in Headers */,
-				46F032EE0E78099D0EB8F24E /* PureLayout.h in Headers */,
-				93AEE30C2FDC64397D763C55 /* PureLayoutDefines.h in Headers */,
+				2B8C3E93A6A02288D0BEDBB8 /* FLKAutoLayoutPredicateList.h in Headers */,
+				9F1189549DDD57CE585209E6 /* NSLayoutConstraint+FLKAutoLayoutDebug.h in Headers */,
+				DF80CAA7B8B2D7D52DA31C43 /* UIView+FLKAutoLayout.h in Headers */,
+				963FFE5FD782949C6A1C1296 /* UIView+FLKAutoLayoutDebug.h in Headers */,
+				ED353B4A5CCAB5ABE3111BA9 /* UIView+FLKAutoLayoutPredicate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F16507FBE896482E037B6AB /* Headers */ = {
+		7411DCE284F9ED24D983C7C5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F35D2403D65037C686CA7F0 /* ORSplitStackView.h in Headers */,
-				4596934B7A2384DE848F604C /* ORStackScrollView.h in Headers */,
-				569E89114734FF410E513563 /* ORStackView+Private.h in Headers */,
-				9325CCCC8BA2F89723241E6E /* ORStackView.h in Headers */,
-				8B25C5C2C87B2D5447712D85 /* ORStackViewController.h in Headers */,
-				77E3227B64A1794094159AEA /* ORTagBasedAutoStackView.h in Headers */,
+				023A4677F005D0A572465BE4 /* ALView+PureLayout.h in Headers */,
+				3BD18A9D4970B04AE1929B47 /* NSArray+PureLayout.h in Headers */,
+				36F924D6504BD9738F4688E9 /* NSLayoutConstraint+PureLayout.h in Headers */,
+				E832D4976235AB84C013CC96 /* PureLayout+Internal.h in Headers */,
+				D9F55094C8395A47434C5930 /* PureLayout.h in Headers */,
+				0B639E1B5D1B39D839158314 /* PureLayoutDefines.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E501BC11845746064B2F6E7 /* Headers */ = {
+		E4221896ED8D06DBE257E317 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				339DFCB8F83E50F49806395B /* FLKAutoLayoutPredicateList.h in Headers */,
-				80A972F1E11E292D9B8137CF /* NSLayoutConstraint+FLKAutoLayoutDebug.h in Headers */,
-				ADAA6AD2C41752254A8679F5 /* UIView+FLKAutoLayout.h in Headers */,
-				96CA5141DE9261100C35ACAA /* UIView+FLKAutoLayoutDebug.h in Headers */,
-				B0D00DA16F737F221A0AEBFB /* UIView+FLKAutoLayoutPredicate.h in Headers */,
+				C3E35662770F20DFE2A1F33D /* ORSplitStackView.h in Headers */,
+				01AD7588CA12C41AB896F242 /* ORStackScrollView.h in Headers */,
+				BA1212440C8C1CD0B9AFB0DB /* ORStackView+Private.h in Headers */,
+				C799318A180511B734EC65F5 /* ORStackView.h in Headers */,
+				6E57EC273D390DD0AD4994C5 /* ORStackViewController.h in Headers */,
+				984A37FD21A87CCFBD3CAAE6 /* ORTagBasedAutoStackView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1CE0CA6FE2A4FF2AFEA49FB9 /* Pods-iOSLibs-ORStackView */ = {
+		4FF448FB2E02E2CBE821A58F /* Pods-iOSLibs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C41600E9479E923700513EBB /* Build configuration list for PBXNativeTarget "Pods-iOSLibs-ORStackView" */;
+			buildConfigurationList = 4C7BE05CA657509055DFA2F5 /* Build configuration list for PBXNativeTarget "Pods-iOSLibs" */;
 			buildPhases = (
-				EA774FD4367583B0818A4D4C /* Sources */,
-				63DA84119099DEE4AB36FE32 /* Frameworks */,
-				5F16507FBE896482E037B6AB /* Headers */,
+				7DB6E504D160C07B08942D79 /* Sources */,
+				084549D46DEB042A1145A4C8 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DE3564D37955FF94CFC699ED /* PBXTargetDependency */,
-			);
-			name = "Pods-iOSLibs-ORStackView";
-			productName = "Pods-iOSLibs-ORStackView";
-			productReference = 62759E3A0B2562C83EFBC5C3 /* libPods-iOSLibs-ORStackView.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		525A98E78C526C696642E5EE /* Pods-iOSLibs-PureLayout */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8823AA2BD78474893C9CDAA0 /* Build configuration list for PBXNativeTarget "Pods-iOSLibs-PureLayout" */;
-			buildPhases = (
-				4AB96E4698F901CC6EA78040 /* Sources */,
-				573E5ADBAB7510B0D775D968 /* Frameworks */,
-				4917366171E9FA47EBF23B23 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-iOSLibs-PureLayout";
-			productName = "Pods-iOSLibs-PureLayout";
-			productReference = A2B3278CF2B62023F1F48267 /* libPods-iOSLibs-PureLayout.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		A3C3F6B3312FD5700C4AABB7 /* Pods-iOSLibs */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 502B5931EEA3CC820697B8EB /* Build configuration list for PBXNativeTarget "Pods-iOSLibs" */;
-			buildPhases = (
-				91E5DBAFE1C43D697D5B02F3 /* Sources */,
-				FE32537477BA24E3C16FE259 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0EF05EA5B3AB32884E5D3D17 /* PBXTargetDependency */,
-				9A915754DB481165DE34C259 /* PBXTargetDependency */,
-				6607C3CDA17A6DF148421A25 /* PBXTargetDependency */,
+				7091E84C4B647419BE726AA7 /* PBXTargetDependency */,
+				78BB11BDBDCD040C395EA5C3 /* PBXTargetDependency */,
+				A5E96D63535424B0BD4C92C6 /* PBXTargetDependency */,
 			);
 			name = "Pods-iOSLibs";
 			productName = "Pods-iOSLibs";
-			productReference = 8CE7D7EB976D1FD57800FCC2 /* libPods-iOSLibs.a */;
+			productReference = AB9104493BA2848D996BB537 /* libPods-iOSLibs.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		DDFE7106CACD856AFAFA6748 /* Pods-iOSLibs-FLKAutoLayout */ = {
+		5B6E01D887A81974A3F7141C /* Pods-iOSLibs-ORStackView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44FC6EF542F6C22EC00D9A60 /* Build configuration list for PBXNativeTarget "Pods-iOSLibs-FLKAutoLayout" */;
+			buildConfigurationList = B9CF991CB27480D2D45B9B43 /* Build configuration list for PBXNativeTarget "Pods-iOSLibs-ORStackView" */;
 			buildPhases = (
-				96C46998F1D1CA1FBB5ED0EF /* Sources */,
-				F8225FD3F58439FCA8ACF9FB /* Frameworks */,
-				7E501BC11845746064B2F6E7 /* Headers */,
+				9C302CF666120E35286DE815 /* Sources */,
+				42FAE987AE094456C9E1CFF4 /* Frameworks */,
+				E4221896ED8D06DBE257E317 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0E91FDBECBB67F578DE62CB /* PBXTargetDependency */,
+			);
+			name = "Pods-iOSLibs-ORStackView";
+			productName = "Pods-iOSLibs-ORStackView";
+			productReference = 2E86DB7A89A94362FA0BFB57 /* libPods-iOSLibs-ORStackView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8383FE1EB90EE07C87675311 /* Pods-iOSLibs-FLKAutoLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4384E695349CEFAF734BB690 /* Build configuration list for PBXNativeTarget "Pods-iOSLibs-FLKAutoLayout" */;
+			buildPhases = (
+				EDCF54942F6757F10049EA92 /* Sources */,
+				7B73BADA39D2AB205FADFA47 /* Frameworks */,
+				3E058285C124C7E1AE97CEB9 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -448,131 +431,148 @@
 			);
 			name = "Pods-iOSLibs-FLKAutoLayout";
 			productName = "Pods-iOSLibs-FLKAutoLayout";
-			productReference = 0175C45A196DC2F6469FF420 /* libPods-iOSLibs-FLKAutoLayout.a */;
+			productReference = 1801E0209D10532B479EDC15 /* libPods-iOSLibs-FLKAutoLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		88C26287261B74735722C4A2 /* Pods-iOSLibs-PureLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B9EB69A300CECB7727A7826 /* Build configuration list for PBXNativeTarget "Pods-iOSLibs-PureLayout" */;
+			buildPhases = (
+				48F5502E45E767F91C8D8688 /* Sources */,
+				30A2B2BAA26D4F486FE463FC /* Frameworks */,
+				7411DCE284F9ED24D983C7C5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-iOSLibs-PureLayout";
+			productName = "Pods-iOSLibs-PureLayout";
+			productReference = C67F8FC9078A632D02F04CBD /* libPods-iOSLibs-PureLayout.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		64560FA9B2C8AE573BF59DF7 /* Project object */ = {
+		958255C8E20B9AA097F5E58A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = D7283380C81BC747F7AEE3CA /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = E7BF01012175CB61D1EFF91D /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 15B0F468674410BABCA8E38C;
-			productRefGroup = 0FF4FB61D21055C67606EBBE /* Products */;
+			mainGroup = 3F946BE0672A36351A40DAC8;
+			productRefGroup = A2E11FDEC4AB8E5C3CF7B702 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A3C3F6B3312FD5700C4AABB7 /* Pods-iOSLibs */,
-				DDFE7106CACD856AFAFA6748 /* Pods-iOSLibs-FLKAutoLayout */,
-				1CE0CA6FE2A4FF2AFEA49FB9 /* Pods-iOSLibs-ORStackView */,
-				525A98E78C526C696642E5EE /* Pods-iOSLibs-PureLayout */,
+				4FF448FB2E02E2CBE821A58F /* Pods-iOSLibs */,
+				8383FE1EB90EE07C87675311 /* Pods-iOSLibs-FLKAutoLayout */,
+				5B6E01D887A81974A3F7141C /* Pods-iOSLibs-ORStackView */,
+				88C26287261B74735722C4A2 /* Pods-iOSLibs-PureLayout */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4AB96E4698F901CC6EA78040 /* Sources */ = {
+		48F5502E45E767F91C8D8688 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26844756C274BE39CB53A86D /* ALView+PureLayout.m in Sources */,
-				ED1846E0D1C85D775820FEA0 /* NSArray+PureLayout.m in Sources */,
-				1CD1A1E5AC8462CA09398FA9 /* NSLayoutConstraint+PureLayout.m in Sources */,
-				BC08D993D5ED07668B35A836 /* Pods-iOSLibs-PureLayout-dummy.m in Sources */,
+				07AAB84C72FC2AC6533A9BD9 /* ALView+PureLayout.m in Sources */,
+				CF3B0CDCC4E1EA62A1B842C2 /* NSArray+PureLayout.m in Sources */,
+				D6957144C6AF5022E589976C /* NSLayoutConstraint+PureLayout.m in Sources */,
+				97D43325429B7AD6259A3B24 /* Pods-iOSLibs-PureLayout-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91E5DBAFE1C43D697D5B02F3 /* Sources */ = {
+		7DB6E504D160C07B08942D79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31F1D22FD34F8F9627D25676 /* Pods-iOSLibs-dummy.m in Sources */,
+				C703B95D5CF69C5A6646841C /* Pods-iOSLibs-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96C46998F1D1CA1FBB5ED0EF /* Sources */ = {
+		9C302CF666120E35286DE815 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4210AFD3D3C9A9B8E3F20C0B /* FLKAutoLayoutPredicateList.m in Sources */,
-				AF9150DDC2048AC89FC4845E /* NSLayoutConstraint+FLKAutoLayoutDebug.m in Sources */,
-				78211FC21AC99C7B326370B4 /* Pods-iOSLibs-FLKAutoLayout-dummy.m in Sources */,
-				95162A760DF075EA8FEC17DD /* UIView+FLKAutoLayout.m in Sources */,
-				352FB066C4D4F1784FCC3CA3 /* UIView+FLKAutoLayoutDebug.m in Sources */,
-				92062E1B98D598115E86C958 /* UIView+FLKAutoLayoutPredicate.m in Sources */,
+				0B8E7A936446CF6702D6994D /* ORSplitStackView.m in Sources */,
+				F9BC3B5E80E1091C824B030F /* ORStackScrollView.m in Sources */,
+				A00669F0ABEF9E1A2A81F0F1 /* ORStackView+Private.m in Sources */,
+				0ED518058728E06AF782DC93 /* ORStackView.m in Sources */,
+				46A5C7B21C26B980FCD48A82 /* ORStackViewController.m in Sources */,
+				2B60043D39B92DFBD345DF36 /* ORTagBasedAutoStackView.m in Sources */,
+				60E746C91A5E9DF12E15A817 /* Pods-iOSLibs-ORStackView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA774FD4367583B0818A4D4C /* Sources */ = {
+		EDCF54942F6757F10049EA92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC0CD2AACD23067065CA3F0E /* ORSplitStackView.m in Sources */,
-				1D9CB3D6996C9EFC83FC12E2 /* ORStackScrollView.m in Sources */,
-				84955C4F1E973F10C561B73A /* ORStackView+Private.m in Sources */,
-				867213B6A75542A7C93F98E8 /* ORStackView.m in Sources */,
-				87FE0C280EDE63EBF99A7D86 /* ORStackViewController.m in Sources */,
-				FEACA374B7A7DF97FC7BD192 /* ORTagBasedAutoStackView.m in Sources */,
-				BDCFED7794B93948E5722B29 /* Pods-iOSLibs-ORStackView-dummy.m in Sources */,
+				B0456821AE28A79E4BD97711 /* FLKAutoLayoutPredicateList.m in Sources */,
+				591C8F3A17C4B95287E8E73E /* NSLayoutConstraint+FLKAutoLayoutDebug.m in Sources */,
+				43CD68EDB4D7B38B43ECCB12 /* Pods-iOSLibs-FLKAutoLayout-dummy.m in Sources */,
+				5A32B32A7FC20C785121D658 /* UIView+FLKAutoLayout.m in Sources */,
+				2E0AA5D452B341D98D879C16 /* UIView+FLKAutoLayoutDebug.m in Sources */,
+				95979BB42796ED39038EAEDF /* UIView+FLKAutoLayoutPredicate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0EF05EA5B3AB32884E5D3D17 /* PBXTargetDependency */ = {
+		7091E84C4B647419BE726AA7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-iOSLibs-FLKAutoLayout";
-			target = DDFE7106CACD856AFAFA6748 /* Pods-iOSLibs-FLKAutoLayout */;
-			targetProxy = 357686146DB593240EA9F06C /* PBXContainerItemProxy */;
+			target = 8383FE1EB90EE07C87675311 /* Pods-iOSLibs-FLKAutoLayout */;
+			targetProxy = 0DC6084D070449E733E7CB62 /* PBXContainerItemProxy */;
 		};
-		6607C3CDA17A6DF148421A25 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-iOSLibs-PureLayout";
-			target = 525A98E78C526C696642E5EE /* Pods-iOSLibs-PureLayout */;
-			targetProxy = B96734869893B110901ACC94 /* PBXContainerItemProxy */;
-		};
-		9A915754DB481165DE34C259 /* PBXTargetDependency */ = {
+		78BB11BDBDCD040C395EA5C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-iOSLibs-ORStackView";
-			target = 1CE0CA6FE2A4FF2AFEA49FB9 /* Pods-iOSLibs-ORStackView */;
-			targetProxy = A2CAAD30CF9281D3069CBFC7 /* PBXContainerItemProxy */;
+			target = 5B6E01D887A81974A3F7141C /* Pods-iOSLibs-ORStackView */;
+			targetProxy = 0AF298C11A93870D016EDBBB /* PBXContainerItemProxy */;
 		};
-		DE3564D37955FF94CFC699ED /* PBXTargetDependency */ = {
+		A5E96D63535424B0BD4C92C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-iOSLibs-PureLayout";
+			target = 88C26287261B74735722C4A2 /* Pods-iOSLibs-PureLayout */;
+			targetProxy = 9FE1DC61776D9B45A5CB3A63 /* PBXContainerItemProxy */;
+		};
+		D0E91FDBECBB67F578DE62CB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-iOSLibs-FLKAutoLayout";
-			target = DDFE7106CACD856AFAFA6748 /* Pods-iOSLibs-FLKAutoLayout */;
-			targetProxy = D7258B76646E177302B236DA /* PBXContainerItemProxy */;
+			target = 8383FE1EB90EE07C87675311 /* Pods-iOSLibs-FLKAutoLayout */;
+			targetProxy = 933E48038839A5DF633A6A0B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		108F687FBBAB94C1367B2F71 /* Release */ = {
+		08B54748422D9CFEAA5883E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A139FF50F01BF8E87D14F0F3 /* Pods-iOSLibs-FLKAutoLayout-Private.xcconfig */;
+			baseConfigurationReference = DA69181D9A31890F8FC6F942 /* Pods-iOSLibs-ORStackView-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-iOSLibs-FLKAutoLayout/Pods-iOSLibs-FLKAutoLayout-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-iOSLibs-ORStackView/Pods-iOSLibs-ORStackView-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		81409927EAF4413FBD4CEEDA /* Debug */ = {
+		11F2931BF67ACF1011BB514B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -611,71 +611,7 @@
 			};
 			name = Debug;
 		};
-		856B47114092201BDCA48FD9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0656D3D160613B832D72A11D /* Pods-iOSLibs.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		8D77D99CF11EB5FA241D1260 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A139FF50F01BF8E87D14F0F3 /* Pods-iOSLibs-FLKAutoLayout-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-iOSLibs-FLKAutoLayout/Pods-iOSLibs-FLKAutoLayout-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		937CAA4EF88D556146C5523F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACA4AD078FA6CD4004B5D791 /* Pods-iOSLibs-PureLayout-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-iOSLibs-PureLayout/Pods-iOSLibs-PureLayout-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		A0F2A5D76062D6FE35F7F361 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACA4AD078FA6CD4004B5D791 /* Pods-iOSLibs-PureLayout-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-iOSLibs-PureLayout/Pods-iOSLibs-PureLayout-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		AD68F4FA61129EEC42B09C9C /* Release */ = {
+		27F78B6410CEE84881B49FA9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -709,41 +645,9 @@
 			};
 			name = Release;
 		};
-		D701C3DB5E93923363649A8D /* Debug */ = {
+		43DF4FF9C35286B343DFBBFE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB6C64C0A7BE83188CD3B61A /* Pods-iOSLibs-ORStackView-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-iOSLibs-ORStackView/Pods-iOSLibs-ORStackView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		DD480D2B2A9D3D0AC40B6B93 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB6C64C0A7BE83188CD3B61A /* Pods-iOSLibs-ORStackView-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-iOSLibs-ORStackView/Pods-iOSLibs-ORStackView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		FCB531F2BC577A4FFC61F857 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24E933FD232FEDA4C98FD1E3 /* Pods-iOSLibs.release.xcconfig */;
+			baseConfigurationReference = CCA24CC60A887899AF504D2D /* Pods-iOSLibs.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -757,55 +661,151 @@
 			};
 			name = Release;
 		};
+		710DBDABC3FF8CF14361B7EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E17663386DE97B052049C3 /* Pods-iOSLibs.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7627E5485520CAA500433819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC69A9F5D622FF8768AB0C2A /* Pods-iOSLibs-PureLayout-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-iOSLibs-PureLayout/Pods-iOSLibs-PureLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A49E78CCF2247B43FA37E3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37703FC8EB47BEB2CD566965 /* Pods-iOSLibs-FLKAutoLayout-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-iOSLibs-FLKAutoLayout/Pods-iOSLibs-FLKAutoLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CEFBE5CF4A42AC41763F60FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC69A9F5D622FF8768AB0C2A /* Pods-iOSLibs-PureLayout-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-iOSLibs-PureLayout/Pods-iOSLibs-PureLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D83133DB4C1567E3997F5D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37703FC8EB47BEB2CD566965 /* Pods-iOSLibs-FLKAutoLayout-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-iOSLibs-FLKAutoLayout/Pods-iOSLibs-FLKAutoLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E0DDA251762ADCBD1EE277F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA69181D9A31890F8FC6F942 /* Pods-iOSLibs-ORStackView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-iOSLibs-ORStackView/Pods-iOSLibs-ORStackView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		44FC6EF542F6C22EC00D9A60 /* Build configuration list for PBXNativeTarget "Pods-iOSLibs-FLKAutoLayout" */ = {
+		4384E695349CEFAF734BB690 /* Build configuration list for PBXNativeTarget "Pods-iOSLibs-FLKAutoLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D77D99CF11EB5FA241D1260 /* Debug */,
-				108F687FBBAB94C1367B2F71 /* Release */,
+				D83133DB4C1567E3997F5D77 /* Debug */,
+				A49E78CCF2247B43FA37E3AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		502B5931EEA3CC820697B8EB /* Build configuration list for PBXNativeTarget "Pods-iOSLibs" */ = {
+		4C7BE05CA657509055DFA2F5 /* Build configuration list for PBXNativeTarget "Pods-iOSLibs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				856B47114092201BDCA48FD9 /* Debug */,
-				FCB531F2BC577A4FFC61F857 /* Release */,
+				710DBDABC3FF8CF14361B7EA /* Debug */,
+				43DF4FF9C35286B343DFBBFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8823AA2BD78474893C9CDAA0 /* Build configuration list for PBXNativeTarget "Pods-iOSLibs-PureLayout" */ = {
+		7B9EB69A300CECB7727A7826 /* Build configuration list for PBXNativeTarget "Pods-iOSLibs-PureLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A0F2A5D76062D6FE35F7F361 /* Debug */,
-				937CAA4EF88D556146C5523F /* Release */,
+				7627E5485520CAA500433819 /* Debug */,
+				CEFBE5CF4A42AC41763F60FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C41600E9479E923700513EBB /* Build configuration list for PBXNativeTarget "Pods-iOSLibs-ORStackView" */ = {
+		B9CF991CB27480D2D45B9B43 /* Build configuration list for PBXNativeTarget "Pods-iOSLibs-ORStackView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D701C3DB5E93923363649A8D /* Debug */,
-				DD480D2B2A9D3D0AC40B6B93 /* Release */,
+				08B54748422D9CFEAA5883E7 /* Debug */,
+				E0DDA251762ADCBD1EE277F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7283380C81BC747F7AEE3CA /* Build configuration list for PBXProject "Pods" */ = {
+		E7BF01012175CB61D1EFF91D /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81409927EAF4413FBD4CEEDA /* Debug */,
-				AD68F4FA61129EEC42B09C9C /* Release */,
+				11F2931BF67ACF1011BB514B /* Debug */,
+				27F78B6410CEE84881B49FA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 64560FA9B2C8AE573BF59DF7 /* Project object */;
+	rootObject = 958255C8E20B9AA097F5E58A /* Project object */;
 }

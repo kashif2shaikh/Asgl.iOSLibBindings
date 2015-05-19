@@ -1,7 +1,7 @@
 PODS:
   - FLKAutoLayout (0.2.1)
-  - ORStackView (3.0.0):
-    - FLKAutoLayout (~> 0.1)
+  - ORStackView (3.0.1):
+    - FLKAutoLayout (~> 0.2)
   - PureLayout (2.0.6)
 
 DEPENDENCIES:
@@ -11,7 +11,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   FLKAutoLayout: 9db6b30c2008d230da608e62c607b11c23b942e6
-  ORStackView: 5836e207304ed62db4177b707f19245454943705
+  ORStackView: a1bb52748cd0ae29891c140baf22ff8972fb363c
   PureLayout: f25f0bb904d5ccfe6e31da3cb869185259f02e0d
 
 COCOAPODS: 0.36.0
