@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Asgl.iOSLibBindingsTest</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>Asgl.iOSLibBindingsTest</AssemblyName>
+    <AssemblyName>AsgliOSLibBindingsTest</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>

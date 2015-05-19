@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="Asgl.iOSLibBindings/Asgl.iOSLibBindings.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Asgl.iOSLibBindings/ORStackView/ORStackView.linkwith.cs">
+    <Files>
+      <File FileName="Asgl.iOSLibBindings/ORStackView/ApiDefinitions.cs" Line="38" Column="33" />
+      <File FileName="Asgl.iOSLibBindings/ORStackView/StructsAndEnums.cs" Line="1" Column="1" />
+      <File FileName="Asgl.iOSLibBindings/FLKAutoLayout/StructsAndEnums.cs" Line="1" Column="1" />
+      <File FileName="Asgl.iOSLibBindings/PureLayout/StructsAndEnums.cs" Line="1" Column="1" />
+      <File FileName="Asgl.iOSLibBindings/FLKAutoLayout/FLKAutoLayout.linkwith.cs" Line="4" Column="1" />
+      <File FileName="Asgl.iOSLibBindings/ORStackView/ORStackView.linkwith.cs" Line="5" Column="94" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

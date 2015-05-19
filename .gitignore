@@ -21,7 +21,7 @@ Thumbs.db
 *.lib
 *.sbr
 *.nupkg
-*.nuspec
+#*.nuspec
 *.psess
 *.vsp
 *.vspx

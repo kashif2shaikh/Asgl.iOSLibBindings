@@ -77,6 +77,7 @@
     <ObjcBindingCoreSource Include="FLKAutoLayout\StructsAndEnums.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Asgl.iOSLibBindings.nuspec" />
     <None Include="Scripts\SharpieBind.sh" />
     <None Include="Scripts\UniversalLib.sh" />
   </ItemGroup>
