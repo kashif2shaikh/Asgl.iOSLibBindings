@@ -1,6 +1,7 @@
 ﻿using System;
 using UIKit;
 using ObjCRuntime;
+using Foundation;
 
 namespace Asgl.iOSLibBindings.ORStackView
 {
@@ -39,6 +40,19 @@ namespace Asgl.iOSLibBindings.ORStackView
 		public ORTagBasedAutoStackScrollView() : base(new Class("ORTagBasedAutoStackView")) /* this base ctor should call: initWithStackViewClass */ {
 
 		}
+
+		public ORTagBasedAutoStackScrollView(NSCoder coder ) : base(coder)  {
+
+		}
+
+		protected ORTagBasedAutoStackScrollView(IntPtr handle) : base(handle)  {
+
+		}
+
+		protected ORTagBasedAutoStackScrollView (NSObjectFlag t) : base (t) {	
+			
+		}
+			
 	}
 }
 
