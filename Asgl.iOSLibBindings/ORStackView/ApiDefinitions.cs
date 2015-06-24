@@ -7,7 +7,7 @@ namespace Asgl.iOSLibBindings.ORStackView
 {
 	// @interface ORStackView : UIView
 	[BaseType (typeof(UIView))]
-	interface ORStackView
+	partial interface ORStackView // KASHIF: make partial to combine both public + private interface into one class
 	{
 		// -(void)addSubview:(UIView *)view withPrecedingMargin:(CGFloat)margin;
 		[Export ("addSubview:withPrecedingMargin:")]
@@ -39,8 +39,8 @@ namespace Asgl.iOSLibBindings.ORStackView
 
 		// -(void)insertSubview:(UIView *)view beforeSubview:(UIView *)siblingSubview withPrecedingMargin:(CGFloat)margin;
 		[Export ("insertSubview:beforeSubview:withPrecedingMargin:")]
-		void InsertSubviewBeforeSubview (UIView view, UIView siblingSubview, nfloat margin);	
-
+		void InsertSubviewBeforeSubview (UIView view, UIView siblingSubview, nfloat margin);        
+        
 		// -(void)removeSubview:(UIView *)subview;
 		[Export ("removeSubview:")]
 		void RemoveSubview (UIView subview);
@@ -89,6 +89,19 @@ namespace Asgl.iOSLibBindings.ORStackView
 		// -(void)insertSubview:(UIView *)view belowSubview:(UIView *)siblingSubview __attribute__((unavailable("insertSubview is not supported on ORStackView.")));
 		[Export ("insertSubview:belowSubview:")]
 		void InsertSubviewBelowSubview (UIView view, UIView siblingSubview);
+
+		// Private interface
+		// @property (nonatomic, strong) NSMutableArray * viewStack;
+//		[Export ("viewStack")]
+//		NSMutableArray ViewStack { get; set; }
+//
+//		// -(void)_addSubview:(UIView *)view withPrecedingMargin:(CGFloat)precedingMargin centered:(BOOL)centered sideMargin:(CGFloat)sideMargin;
+//		[Export ("_addSubview:withPrecedingMargin:centered:sideMargin:")]
+//		void _addSubview (UIView view, nfloat precedingMargin, bool centered, nfloat sideMargin);
+//
+//		// -(void)_insertSubview:(UIView *)view atIndex:(NSInteger)index withPrecedingMargin:(CGFloat)precedingMargin centered:(BOOL)centered sideMargin:(CGFloat)sideMargin;
+//		[Export ("_insertSubview:atIndex:withPrecedingMargin:centered:sideMargin:")]
+//		void _insertSubview (UIView view, nint index, nfloat precedingMargin, bool centered, nfloat sideMargin);
 	}
 
 	// @interface ORSplitStackView : UIView
@@ -119,6 +132,10 @@ namespace Asgl.iOSLibBindings.ORStackView
 		// -(instancetype)initWithStackViewClass:(Class)klass;
 		[Export ("initWithStackViewClass:")]
 		IntPtr Constructor (Class klass);
+
+		// -(instancetype)init
+//		[Export ("init")]
+//		IntPtr Constructor ();
 	}
 
 	// @interface ORStackViewController : UIViewController
@@ -153,6 +170,47 @@ namespace Asgl.iOSLibBindings.ORStackView
 		// -(void)insertSubview:(UIView *)view beforeSubview:(UIView *)siblingSubview withPrecedingMargin:(CGFloat)margin __attribute__((unavailable("Inserting subviews is not supported on ORTagBasedAutoStackView.")));
 		[Export ("insertSubview:beforeSubview:withPrecedingMargin:")]
 		void InsertSubviewBeforeSubview (UIView view, UIView siblingSubview, nfloat margin);
+	}
+
+	// PRIVATE INTERFACE
+
+	// @interface StackView : NSObject
+	[BaseType (typeof(NSObject))]
+	interface StackView
+	{
+		// @property (nonatomic, strong) UIView * view;
+		[Export ("view", ArgumentSemantic.Strong)]
+		UIView View { get; set; }
+
+		// @property (nonatomic, strong) NSLayoutConstraint * precedingConstraint;
+		[Export ("precedingConstraint", ArgumentSemantic.Strong)]
+		NSLayoutConstraint PrecedingConstraint { get; set; }
+
+		// @property (assign, nonatomic) CGFloat constant;
+		[Export ("constant", ArgumentSemantic.Assign)]
+		nfloat Constant { get; set; }
+	}
+
+	// @interface  (ORStackView)
+	//[Category]
+	//[BaseType (typeof(ORStackView))]
+	partial interface ORStackView // KASHIF: make partial to combine both public + private interface into one class
+	{
+		// @property (nonatomic, strong) NSMutableArray * viewStack;
+		[Export ("viewStack")]
+		NSMutableArray ViewStack { get; set; }
+
+		// -(void)_addSubview:(UIView *)view withPrecedingMargin:(CGFloat)precedingMargin centered:(BOOL)centered sideMargin:(CGFloat)sideMargin;
+		[Export ("_addSubview:withPrecedingMargin:centered:sideMargin:")]
+		void _addSubview (UIView view, nfloat precedingMargin, bool centered, nfloat sideMargin);
+
+		// -(void)_insertSubview:(UIView *)view atIndex:(NSInteger)index withPrecedingMargin:(CGFloat)precedingMargin centered:(BOOL)centered sideMargin:(CGFloat)sideMargin;
+		[Export ("_insertSubview:atIndex:withPrecedingMargin:centered:sideMargin:")]
+		void _insertSubview (UIView view, nint index, nfloat precedingMargin, bool centered, nfloat sideMargin);
+
+		//- (NSInteger)indexOfView:(UIView *)view
+		[Export ("indexOfView:")]
+		nint IndexOfView(UIView view);
 	}
 }
 

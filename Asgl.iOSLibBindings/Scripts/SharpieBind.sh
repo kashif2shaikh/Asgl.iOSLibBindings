@@ -32,11 +32,28 @@ if [ ! -d "${POD_DIR}/${POD}" ]; then
 	exit 1
 fi
 
+EXTRA_ARGS="$2"
+echo EXTRA_ARGS
+if [ "$EXTRA_ARGS" = "inc_priv" ]; then
+	echo "Including private headers"
+	POD_PRIVATE_HEADERS=${POD_DIR}/Headers/Private/${POD}/*
+	echo "Private headers:" ${POD_PRIVATE_HEADERS}
+elif [ "$EXTRA_ARGS" = "add_headers" ]; then
+	shift
+	shift
+	ADD_HEADERS=$@
+	echo "Additional headers:" ${ADD_HEADERS}
+else
+	echo "extra args not recognized"
+	exit 1
+fi
+
 POD_HEADERS="${POD_DIR}/Headers/Public/${POD}"
 if [ ! -d "$POD_HEADERS" ]; then
 	echo "$POD_HEADERS: Does not exist"
 	exit 1
 fi
+
 
 TARGET_FILES="${POD_DIR}/Target Support Files"
 IOSLIB_TARGET_FILES="${TARGET_FILES}/Pods-iOSLibs"
@@ -52,8 +69,8 @@ if [ ! -f "$POD_PCH" ]; then
 fi
 
 ls ${POD_HEADERS}
-#-I"${IOSLIB_TARGET_FILES}" -I"${POD_HEADERS}" -scope "$IOSLIB_TARGET_FILES" -scope ${POD_HEADERS} -${API}
-sharpie bind -o ${OUTPUT_DIR} -n "Asgl.iOSLibBindings.${POD}" -sdk ${SDK} ${POD_HEADERS}/* -c -I"${IOSLIB_TARGET_FILES}" -include "${POD_PCH}"
+#-I"${IOSLIB_TARGET_FILES}" -I"${POD_HEADERS}" -scope "$IOSLIB_TARGET_FILES" -scope ${POD_HEADERS} -${API} ${POD_HEADERS}/*
+sharpie bind -o ${OUTPUT_DIR} -n "Asgl.iOSLibBindings.${POD}" -sdk ${SDK}  ${POD_HEADERS}/* ${POD_PRIVATE_HEADERS} ${ADD_HEADERS} -c -I"${IOSLIB_TARGET_FILES}" -I${POD_HEADERS} -include "${POD_PCH}"
 
 echo "--------"
 echo "Binding complete. Check directory \"$OUTPUT_DIR\" for results and import into Xamarin"
