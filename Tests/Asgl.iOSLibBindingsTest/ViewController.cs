@@ -7,6 +7,8 @@ using Asgl.iOSLibBindings.ORStackView;
 using Asgl.iOSLibBindings;
 using System.Collections;
 using System.Collections.Generic;
+using Foundation;
+using ObjCRuntime;
 
 namespace iOSLibBindingsTest
 {
@@ -88,5 +90,40 @@ namespace iOSLibBindingsTest
 			// Release any cached data, images, etc that aren't in use.
 		}
 	}
+
+//	[Foundation.Register("ORTagBasedAutoStackScrollView")]
+//	public class ORTagBasedAutoStackScrollView : ORStackScrollView {
+//
+//		public override Class StackViewClass() {
+//			/*get*/ {				
+//				return new Class ("ORTagBasedAutoStackView");
+//			}
+//		}
+//
+//		//		public ORTagBasedAutoStackScrollView() : base(new Class ("ORTagBasedAutoStackView")) {
+//		//
+//		//		}
+//
+////		public ORTagBasedAutoStackScrollView() : base() {
+////
+////		}
+//
+//		//		public ORTagBasedAutoStackScrollView() : base(new Class("ORTagBasedAutoStackView")) /* this base ctor should call: initWithStackViewClass */ {
+//		//
+//		//		}
+//
+////		public ORTagBasedAutoStackScrollView(NSCoder coder ) : base(coder)  {
+////
+////		}
+////
+////		protected ORTagBasedAutoStackScrollView(IntPtr handle) : base(handle)  {
+////
+////		}
+////
+////		protected ORTagBasedAutoStackScrollView (NSObjectFlag t) : base (t) {	
+////
+////		}
+//
+//	}
 }
 

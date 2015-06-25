@@ -3,10 +3,16 @@ platform :ios, '7.0'
 
 target 'iOSLibs' do
 	pod 'FLKAutoLayout'
-	pod 'ORStackView', '~> 3.0'
-    #pod 'DejalActivityView'
+	pod 'ORStackView', :git => 'https://github.com/kashif2shaikh/ORStackView.git', :branch =>  '3.0_scrollview'
     pod 'PureLayout'
 end
+
+#Examples
+#pod 'AFNetworking', :git => 'https://github.com/gowalla/AFNetworking.git', :branch => 'dev'
+#To use a tag of the repo:
+#pod 'AFNetworking', :git => 'https://github.com/gowalla/AFNetworking.git', :tag => '0.7.0'
+#Or specify a commit:
+#pod 'AFNetworking', :git => 'https://github.com/gowalla/AFNetworking.git', :commit => '082f8319af'
 
 target 'iOSLibsTests' do
 

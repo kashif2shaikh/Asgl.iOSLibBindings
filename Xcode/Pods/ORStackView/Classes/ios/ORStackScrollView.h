@@ -19,4 +19,9 @@
 /// Optional init method in case you want to use a subclass of ORStackView
 - (instancetype)initWithStackViewClass:(Class)klass;
 
+// Kashif:
+// Optional method you can override for subclasses that need to use custom ORStackView.
+// This currently defaults to ORStackView and used by init and initForCoder.
+- (Class)stackViewClass;
+
 @end

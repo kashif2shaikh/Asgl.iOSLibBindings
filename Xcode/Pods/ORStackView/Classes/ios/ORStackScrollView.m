@@ -19,7 +19,11 @@
 
 - (instancetype)init
 {
-    return [self initWithStackViewClass:[ORStackView class]];
+    return [self initWithStackViewClass:[self stackViewClass]];
+}
+
+- (Class)stackViewClass {
+    return [ORStackView class];
 }
 
 - (instancetype)initWithStackViewClass:(Class)klass
@@ -37,7 +41,7 @@
 - (instancetype)initWithCoder:(NSCoder *)aDecoder
 {
     if (self = [super initWithCoder:aDecoder]) {
-        [self _loadStackView:[ORStackView class]];
+        [self _loadStackView:[self stackViewClass]];
     }
 
     return self;

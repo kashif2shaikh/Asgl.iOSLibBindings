@@ -43,7 +43,7 @@ elif [ "$EXTRA_ARGS" = "add_headers" ]; then
 	shift
 	ADD_HEADERS=$@
 	echo "Additional headers:" ${ADD_HEADERS}
-else
+elif ["$EXTRA_ARGS" != "" ]; then
 	echo "extra args not recognized"
 	exit 1
 fi

@@ -12,6 +12,7 @@ namespace Asgl.iOSLibBindings.ORStackView
 			var index = Array.IndexOf (this.Subviews, siblingSubview);
 			if (index < 0)
 				index = (int)this.ViewStack.Count;
+
 			
 			this._insertSubview(view, index, precedingMargin, true, sideMargin); 
 
@@ -24,7 +25,7 @@ namespace Asgl.iOSLibBindings.ORStackView
 
 		void InsertSubviewBeforeSubview (UIView view, UIView siblingSubview, nfloat precedingMargin, nfloat sideMargin)
 		{
-			var index = (int)this.IndexOfView (view);
+			var index = (int)this.IndexOfView (view) - 1;
 			this._insertSubview(view, index, precedingMargin, true, sideMargin); 
 
 
@@ -34,25 +35,7 @@ namespace Asgl.iOSLibBindings.ORStackView
 
 		}
 	}
-
-	[Foundation.Register("ORTagBasedAutoStackScrollView")]
-	public class ORTagBasedAutoStackScrollView : ORStackScrollView {
-		public ORTagBasedAutoStackScrollView() : base(new Class("ORTagBasedAutoStackView")) /* this base ctor should call: initWithStackViewClass */ {
-
-		}
-
-		public ORTagBasedAutoStackScrollView(NSCoder coder ) : base(coder)  {
-
-		}
-
-		protected ORTagBasedAutoStackScrollView(IntPtr handle) : base(handle)  {
-
-		}
-
-		protected ORTagBasedAutoStackScrollView (NSObjectFlag t) : base (t) {	
-			
-		}
-			
-	}
 }
+
+
 

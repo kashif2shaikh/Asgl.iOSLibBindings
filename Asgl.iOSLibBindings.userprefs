@@ -1,15 +1,22 @@
 ﻿<Properties StartupItem="Tests/Asgl.iOSLibBindingsTest/Asgl.iOSLibBindingsTest.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone4s.8.3" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6.8.3" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Asgl.iOSLibBindings/ORStackView/Extra.cs">
     <Files>
-      <File FileName="Asgl.iOSLibBindings/ORStackView/ApiDefinitions.cs" Line="1" Column="1" />
-      <File FileName="Asgl.iOSLibBindings/ORStackView/Extra.cs" Line="15" Column="73" />
-      <File FileName="Tests/Asgl.iOSLibBindingsTest/ViewController.cs" Line="1" Column="1" />
+      <File FileName="Asgl.iOSLibBindings/ORStackView/ApiDefinitions.cs" Line="113" Column="29" />
+      <File FileName="Asgl.iOSLibBindings/ORStackView/Extra.cs" Line="45" Column="54" />
+      <File FileName="Tests/Asgl.iOSLibBindingsTest/ViewController.cs" Line="29" Column="17" />
       <File FileName="Tests/Asgl.iOSLibBindingsTest/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="Asgl.iOSLibBindings/obj/Release/ios/AsgliOSLibBindingsORStackView/ORStackScrollView.g.cs" Line="29" Column="20" />
+      <File FileName="Asgl.iOSLibBindings/obj/Release/ios/ObjCRuntime/Messaging.g.cs" Line="1" Column="1" />
+      <File FileName="Asgl.iOSLibBindings/ORStackView_24503/ApiDefinitions.cs" Line="1" Column="1" />
+      <File FileName="Asgl.iOSLibBindings/ORStackView/ORStackView.linkwith.cs" Line="5" Column="64" />
+      <File FileName="Asgl.iOSLibBindings/ORStackView/StructsAndEnums.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/kshaikh/Dropbox/Source/Xamarin/ios-lib-bindings/Tests/Asgl.iOSLibBindingsTest/ViewController.cs" line="31" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

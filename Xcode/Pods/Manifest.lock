@@ -1,17 +1,27 @@
 PODS:
   - FLKAutoLayout (0.2.1)
-  - ORStackView (3.0.1):
+  - ORStackView (3.0.0):
     - FLKAutoLayout (~> 0.2)
   - PureLayout (2.0.6)
 
 DEPENDENCIES:
   - FLKAutoLayout
-  - ORStackView (~> 3.0)
+  - ORStackView (from `https://github.com/kashif2shaikh/ORStackView.git`, branch `3.0_scrollview`)
   - PureLayout
+
+EXTERNAL SOURCES:
+  ORStackView:
+    :branch: 3.0_scrollview
+    :git: https://github.com/kashif2shaikh/ORStackView.git
+
+CHECKOUT OPTIONS:
+  ORStackView:
+    :commit: cc82e34f3470b45a39760424f26ec825b13fa22e
+    :git: https://github.com/kashif2shaikh/ORStackView.git
 
 SPEC CHECKSUMS:
   FLKAutoLayout: 9db6b30c2008d230da608e62c607b11c23b942e6
-  ORStackView: a1bb52748cd0ae29891c140baf22ff8972fb363c
+  ORStackView: e8dcc0918cbb1f5f8cf155858a7a13ccc557c145
   PureLayout: f25f0bb904d5ccfe6e31da3cb869185259f02e0d
 
-COCOAPODS: 0.36.0
+COCOAPODS: 0.37.2
